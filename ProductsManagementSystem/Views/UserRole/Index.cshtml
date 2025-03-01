@@ -1,0 +1,32 @@
+﻿<h1>Users with Roles</h1>
+
+<table class="table table-bordered mt-5">
+    <thead>
+        <th>Username</th>
+        <th>User Roles</th>
+        <th>User Id</th>
+        <th>Actions</th>
+    </thead>
+    <tbody>
+        @foreach (var user in ViewBag.users)
+        {
+            <tr>
+                <td>@user.UserName</td>
+                <td>
+                    @foreach (var role in user.RoleList)
+                    {
+                        @role
+                    }
+                </td>
+                <td>@user.UserId</td>
+                <td>
+                    <a asp-action="AddRole" asp-route-userId="@user.UserId" class="btn btn-success">Add Role</a>
+                    <a asp-action="UpdateRoles" asp-route-userId="@user.UserId" class="btn btn-outline-dark">Change Role</a>
+                    <form method="post" asp-action="RemoveRoles" asp-route-id="@user.UserId" class="d-inline-block">
+                        <button class="btn btn-danger">Delete Roles</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

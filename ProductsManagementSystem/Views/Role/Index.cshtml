@@ -1,0 +1,28 @@
+﻿
+<h1>Roles List</h1>
+
+<a class="btn btn-success" asp-action="Add">Add Role</a>
+
+<table class="table table-bordered my-4">
+    <thead>
+        <th>Role Id</th>
+        <th>Role Name</th>
+        <th>Actions</th>
+    </thead>
+    <tbody>
+        @foreach (var role in ViewBag.Roles)
+        {
+            <tr>
+                <td>@role.Id</td>
+                <td>@role.Name</td>
+                <td>
+                    <form method="post" asp-action="Remove" asp-route-Id="@role.Id">
+                        <button type="submit" class="btn btn-danger">Delete</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a class="btn btn-primary" asp-action="Index" asp-controller="Home">Go to home</a>

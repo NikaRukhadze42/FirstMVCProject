@@ -1,0 +1,18 @@
+﻿@using ProductsManagementSystem.Models.VM.Order
+@model OrderViewModel
+
+<h1>Create Order</h1>
+
+<form asp-action="Create" class="form-group" method="post">
+    @foreach (var product in ViewBag.products)
+    {
+        <div class="form-check mb-2">
+            <input class="form-check-input" type="checkbox" value="@product.Id" name="ProductIds">
+            <label class="form-check-label" for="defaultCheck">
+                @product.Name - @product.Price
+            </label>
+        </div>
+    }
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>

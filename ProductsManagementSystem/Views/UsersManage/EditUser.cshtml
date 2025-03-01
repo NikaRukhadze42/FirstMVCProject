@@ -1,0 +1,36 @@
+﻿@model ProductsManagementSystem.Models.VM.UsersManage.EditUserViewModel
+
+<h1 class="text-center mt-2">Edit user</h1>
+
+<form method="post" asp-action="EditUser" class="mt-5">
+    <input type="password" value="@ViewBag.User.Id" class="d-none" />
+
+    <div class="form-group">
+        <label class="form-label" asp-for="FirstName">Firstname</label>
+        <input type="text" class="form-control" asp-for="FirstName" value="@ViewBag.User.FirstName" required />
+        <span class="text-danger mt-1" asp-validation-for="FirstName"></span>
+    </div>
+
+    <div class="form-group mt-3">
+        <label class="form-label" asp-for="LastName">Lastname</label>
+        <input type="text" class="form-control" asp-for="LastName" value="@ViewBag.User.LastName" required />
+        <span class="text-danger mt-1" asp-validation-for="LastName"></span>
+    </div>
+
+    <div class="form-group mt-3">
+        <label class="form-label" asp-for="Email">Email</label>
+        <input type="email" class="form-control" asp-for="Email" value="@ViewBag.User.Email" required />
+        <span class="text-danger mt-1" asp-validation-for="Email"></span>
+    </div>
+
+    <div class="form-group mt-3">
+        <label class="form-label" asp-for="PhoneNumber">Phone number</label>
+        <input type="text" class="form-control" asp-for="PhoneNumber" value="@ViewBag.User.PhoneNumber" />
+    </div>
+
+
+    <div class="d-flex justify-content-between mt-5">
+        <a asp-action="Index" class="btn btn-outline-dark">Cancel</a>
+        <button type="submit" class="btn btn-outline-success">Save</button>
+    </div>
+</form>

@@ -1,0 +1,47 @@
+﻿@model List<ProductsManagementSystem.Models.Entities.Product>;
+<h1>This is our Products List</h1>
+
+<table class="table">
+    <thead class="thead-dark">
+        <tr>
+            <th>
+                Id
+            </th>
+            <th>
+                Name
+            </th>
+            <th>
+                Price
+            </th>
+            <th>
+                Action
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var product in Model)
+        {
+            <tr>
+                <td>@product.Id</td>
+                <td>@product.Name</td>
+                <td>@product.Price</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@product.Id" class="btn btn-light">See Details</a>
+                    <a asp-action="Edit" asp-route-id="@product.Id" class="btn btn-light">Edit</a>
+                    <form asp-action="Delete" asp-route-id="@product.Id" method="post" onsubmit="return confirm('Are you sure you want to delete this product?');" class="d-contents">
+                        @Html.AntiForgeryToken()
+                        <button type="submit" class="btn btn-danger">Delete</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<br />
+<hr />
+<br />
+
+<div class="d-flex justify-content-end mt-4">
+    <a asp-action="Add" class="btn btn-success">Add Product</a>
+</div>

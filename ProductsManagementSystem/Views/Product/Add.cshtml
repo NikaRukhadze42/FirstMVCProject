@@ -1,0 +1,22 @@
+﻿@model ProductsManagementSystem.Models.Entities.Product;
+
+<h1>Add Product</h1>
+
+<form asp-action="Add" method="post">
+    <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" class="form-control" asp-for="Name" placeholder="Enter Product Name.." required>
+    </div>
+    <div class="form-group mt-1">
+        <label for="price">Price</label>
+        <input type="number" class="form-control" asp-for="Price" placeholder="Enter Product Price.." required>
+    </div>
+    <div class="form-group mt-1">
+        <label for="description">Description</label>
+        <textarea class="form-control" asp-for="Description" placeholder="Enter Product Description.." required></textarea>
+    </div>
+    <div class="d-flex justify-content-between mt-4">
+        <a asp-action="Index" class="btn btn-dark">Cancel</a>
+        <button type="submit" class="btn btn-primary">Save</button>
+    </div>
+</form>

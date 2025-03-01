@@ -1,0 +1,38 @@
+﻿@model List<ProductsManagementSystem.Models.Entities.Order>
+
+<h1>Existing Orders</h1>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Order Id</th>
+            <th>Products List</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var order in Model)
+        {
+            <tr>
+                <td>@order.Id</td>
+                <td>
+                    @foreach (var product in order.Products)
+                    {
+                        <ul>
+                            <li>@product.Name</li>
+                        </ul>
+                    }
+                </td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@order.Id" class="btn btn-outline-dark mr-4">See Details</a>
+                    <a asp-action="Edit" asp-route-id="@order.Id" class="btn btn-outline-dark">Edit</a>
+                    <form method="post" asp-action="Delete" asp-route-id="@order.Id">
+                        <button class="btn btn-danger">Delete</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+    
+<a asp-action="Create" class="btn btn-primary">Create Order</a>

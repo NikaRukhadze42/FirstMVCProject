@@ -1,0 +1,28 @@
+﻿@model ProductsManagementSystem.Models.Entities.Product
+
+<h1>This is @Model.Name details</h1>
+
+<p>
+    <span class="fw-bold">Id:</span>
+    <span class="ml-10">@Model.Id</span>
+</p>
+
+<p>
+    <span class="fw-bold">Name:</span>
+    <span class="ml-10">@Model.Name</span>
+</p>
+
+<p>
+    <span class="fw-bold">Price:</span>
+    <span class="ml-10">@Model.Price</span>
+</p>
+
+<p>
+    <span class="fw-bold">Description:</span>
+    <span class="ml-10">@Model.Description</span>
+</p>
+
+<div class="d-flex justify-content-between mt-4">
+    <a asp-action="Index" class="btn btn-dark">Go Back</a>
+    <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-primary">Edit</a>
+</div>

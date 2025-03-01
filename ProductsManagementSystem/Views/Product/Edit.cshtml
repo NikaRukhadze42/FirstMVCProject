@@ -1,0 +1,22 @@
+﻿@model ProductsManagementSystem.Models.Entities.Product;
+
+<h1>Edit @Model.Name</h1>
+
+<form asp-action="Edit" method="post">
+    <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" class="form-control" asp-for="Name" value="@Model.Name" required>
+    </div>
+    <div class="form-group mt-1">
+        <label for="price">Price</label>
+        <input type="number" class="form-control" asp-for="Price" value="@Model.Price" required>
+    </div>
+    <div class="form-group mt-1">
+        <label for="description">Description</label>
+        <textarea class="form-control" asp-for="Description" value="@Model.Description" required></textarea>
+    </div>
+    <div class="d-flex justify-content-between mt-4">
+        <a asp-action="Index" class="btn btn-dark">Cancel</a>
+        <button type="submit" class="btn btn-primary">Save</button>
+    </div>
+</form>
