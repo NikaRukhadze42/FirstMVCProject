@@ -2,7 +2,9 @@
 using Microsoft.AspNetCore.Authorization.Infrastructure;
 using Microsoft.AspNetCore.Mvc;
 using ProductsManagementSystem.Interfaces;
+using ProductsManagementSystem.Models.VM.Role;
 using ProductsManagementSystem.Services;
+using System.Threading.Tasks;
 
 namespace ProductsManagementSystem.Controllers
 {
@@ -38,6 +40,20 @@ namespace ProductsManagementSystem.Controllers
         public async Task<IActionResult> Remove(string Id)
         {
             await _roleService.Remove(Id);
+            return RedirectToAction("Index");
+        }
+
+        public async Task<IActionResult> UpdateRole(string Id)
+        {
+            var role = await _roleService.GetRole(Id);
+            ViewBag.Role = role;
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> UpdateRole(UpdateRoleViewModel model)
+        {
+            await _roleService.UpdateRole(model);
             return RedirectToAction("Index");
         }
     }

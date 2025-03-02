@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Lenovo\\source\\repos\\ProductsManagementSystem\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{316CD75E-72DF-4185-8B5C-D17B03B9E78E}|ProductsManagementSystem\\ProductsManagementSystem.csproj|c:\\users\\lenovo\\source\\repos\\productsmanagementsystem\\productsmanagementsystem\\services\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{316CD75E-72DF-4185-8B5C-D17B03B9E78E}|ProductsManagementSystem\\ProductsManagementSystem.csproj|solutionrelative:productsmanagementsystem\\services\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{316CD75E-72DF-4185-8B5C-D17B03B9E78E}|ProductsManagementSystem\\ProductsManagementSystem.csproj|c:\\users\\lenovo\\source\\repos\\productsmanagementsystem\\productsmanagementsystem\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{316CD75E-72DF-4185-8B5C-D17B03B9E78E}|ProductsManagementSystem\\ProductsManagementSystem.csproj|solutionrelative:productsmanagementsystem\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{316CD75E-72DF-4185-8B5C-D17B03B9E78E}|ProductsManagementSystem\\ProductsManagementSystem.csproj|c:\\users\\lenovo\\source\\repos\\productsmanagementsystem\\productsmanagementsystem\\views\\role\\updaterole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{316CD75E-72DF-4185-8B5C-D17B03B9E78E}|ProductsManagementSystem\\ProductsManagementSystem.csproj|solutionrelative:productsmanagementsystem\\views\\role\\updaterole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{316CD75E-72DF-4185-8B5C-D17B03B9E78E}|ProductsManagementSystem\\ProductsManagementSystem.csproj|c:\\users\\lenovo\\source\\repos\\productsmanagementsystem\\productsmanagementsystem\\views\\role\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{316CD75E-72DF-4185-8B5C-D17B03B9E78E}|ProductsManagementSystem\\ProductsManagementSystem.csproj|solutionrelative:productsmanagementsystem\\views\\role\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{316CD75E-72DF-4185-8B5C-D17B03B9E78E}|ProductsManagementSystem\\ProductsManagementSystem.csproj|c:\\users\\lenovo\\source\\repos\\productsmanagementsystem\\productsmanagementsystem\\views\\role\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{316CD75E-72DF-4185-8B5C-D17B03B9E78E}|ProductsManagementSystem\\ProductsManagementSystem.csproj|solutionrelative:productsmanagementsystem\\views\\role\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{316CD75E-72DF-4185-8B5C-D17B03B9E78E}|ProductsManagementSystem\\ProductsManagementSystem.csproj|c:\\users\\lenovo\\source\\repos\\productsmanagementsystem\\productsmanagementsystem\\views\\home\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -42,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,20 +66,72 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\ProductsManagementSystem\\ProductsManagementSystem\\Views\\Role\\Index.cshtml",
+              "RelativeDocumentMoniker": "ProductsManagementSystem\\Views\\Role\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\ProductsManagementSystem\\ProductsManagementSystem\\Views\\Role\\Index.cshtml",
+              "RelativeToolTip": "ProductsManagementSystem\\Views\\Role\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-02T13:29:58.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UpdateRole.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\ProductsManagementSystem\\ProductsManagementSystem\\Views\\Role\\UpdateRole.cshtml",
+              "RelativeDocumentMoniker": "ProductsManagementSystem\\Views\\Role\\UpdateRole.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\ProductsManagementSystem\\ProductsManagementSystem\\Views\\Role\\UpdateRole.cshtml",
+              "RelativeToolTip": "ProductsManagementSystem\\Views\\Role\\UpdateRole.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-02T13:12:55.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "RoleService.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\ProductsManagementSystem\\ProductsManagementSystem\\Services\\RoleService.cs",
+              "RelativeDocumentMoniker": "ProductsManagementSystem\\Services\\RoleService.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\ProductsManagementSystem\\ProductsManagementSystem\\Services\\RoleService.cs",
+              "RelativeToolTip": "ProductsManagementSystem\\Services\\RoleService.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAgwDoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T13:01:33.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\ProductsManagementSystem\\ProductsManagementSystem\\Views\\Role\\Add.cshtml",
+              "RelativeDocumentMoniker": "ProductsManagementSystem\\Views\\Role\\Add.cshtml",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\ProductsManagementSystem\\ProductsManagementSystem\\Views\\Role\\Add.cshtml",
+              "RelativeToolTip": "ProductsManagementSystem\\Views\\Role\\Add.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-02T12:50:11.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "RoleController.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\ProductsManagementSystem\\ProductsManagementSystem\\Controllers\\RoleController.cs",
               "RelativeDocumentMoniker": "ProductsManagementSystem\\Controllers\\RoleController.cs",
               "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\ProductsManagementSystem\\ProductsManagementSystem\\Controllers\\RoleController.cs",
               "RelativeToolTip": "ProductsManagementSystem\\Controllers\\RoleController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAgAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAgwDYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-01T18:48:10.589Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "AccessDenied.cshtml",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\ProductsManagementSystem\\ProductsManagementSystem\\Views\\Home\\AccessDenied.cshtml",
               "RelativeDocumentMoniker": "ProductsManagementSystem\\Views\\Home\\AccessDenied.cshtml",
@@ -71,12 +139,11 @@
               "RelativeToolTip": "ProductsManagementSystem\\Views\\Home\\AccessDenied.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-01T18:46:54.113Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-01T18:46:54.113Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\ProductsManagementSystem\\ProductsManagementSystem\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "ProductsManagementSystem\\Controllers\\HomeController.cs",
@@ -84,12 +151,11 @@
               "RelativeToolTip": "ProductsManagementSystem\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAAwB8AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-01T18:46:28.111Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-01T18:46:28.111Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "EditUser.cshtml",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\ProductsManagementSystem\\ProductsManagementSystem\\Views\\UsersManage\\EditUser.cshtml",
               "RelativeDocumentMoniker": "ProductsManagementSystem\\Views\\UsersManage\\EditUser.cshtml",
@@ -97,12 +163,11 @@
               "RelativeToolTip": "ProductsManagementSystem\\Views\\UsersManage\\EditUser.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-01T18:12:04.276Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-01T18:12:04.276Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "EditUserViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\ProductsManagementSystem\\ProductsManagementSystem\\Models\\VM\\UsersManage\\EditUserViewModel.cs",
               "RelativeDocumentMoniker": "ProductsManagementSystem\\Models\\VM\\UsersManage\\EditUserViewModel.cs",
@@ -110,12 +175,11 @@
               "RelativeToolTip": "ProductsManagementSystem\\Models\\VM\\UsersManage\\EditUserViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-01T18:09:59.601Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-01T18:09:59.601Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "UsersManageService.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\ProductsManagementSystem\\ProductsManagementSystem\\Services\\UsersManageService.cs",
               "RelativeDocumentMoniker": "ProductsManagementSystem\\Services\\UsersManageService.cs",
@@ -123,12 +187,11 @@
               "RelativeToolTip": "ProductsManagementSystem\\Services\\UsersManageService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-01T17:57:32.044Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-01T17:57:32.044Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\ProductsManagementSystem\\ProductsManagementSystem\\Views\\UsersManage\\Index.cshtml",
               "RelativeDocumentMoniker": "ProductsManagementSystem\\Views\\UsersManage\\Index.cshtml",
@@ -136,12 +199,11 @@
               "RelativeToolTip": "ProductsManagementSystem\\Views\\UsersManage\\Index.cshtml",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-01T16:09:00.608Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-01T16:09:00.608Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "UsersManageController.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\ProductsManagementSystem\\ProductsManagementSystem\\Controllers\\UsersManageController.cs",
               "RelativeDocumentMoniker": "ProductsManagementSystem\\Controllers\\UsersManageController.cs",
@@ -149,8 +211,7 @@
               "RelativeToolTip": "ProductsManagementSystem\\Controllers\\UsersManageController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T21:27:39.029Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-28T21:27:39.029Z"
             }
           ]
         }

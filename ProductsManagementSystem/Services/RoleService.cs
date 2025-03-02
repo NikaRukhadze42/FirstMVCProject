@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using ProductsManagementSystem.Interfaces;
 using ProductsManagementSystem.Models;
 using ProductsManagementSystem.Models.Entities;
+using ProductsManagementSystem.Models.VM.Role;
 using ProductsManagementSystem.Models.VM.UserRole;
 
 
@@ -44,6 +45,26 @@ namespace ProductsManagementSystem.Services
         public async Task<List<IdentityRole>> GetAllRoles()
         {
             return _roleManager.Roles.ToList();
+        }
+
+        public async Task UpdateRole(UpdateRoleViewModel updateRoleViewModel)
+        {
+            var role = await _roleManager.Roles.FirstOrDefaultAsync(x => x.Id == updateRoleViewModel.Id);
+
+            if (role != null)
+            {
+                role.Name = updateRoleViewModel.Name;
+                role.NormalizedName = updateRoleViewModel.Name.ToUpper();
+
+                await _roleManager.UpdateAsync(role);
+                await _context.SaveChangesAsync();
+            }
+        }
+
+        public async Task<IdentityRole> GetRole(string Id)
+        {
+            var role = await _roleManager.FindByIdAsync(Id);
+            return role;
         }
     }
 }

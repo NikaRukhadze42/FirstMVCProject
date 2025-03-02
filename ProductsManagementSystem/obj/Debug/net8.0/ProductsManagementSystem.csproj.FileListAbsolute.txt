@@ -155,3 +155,4 @@ C:\Users\Lenovo\source\repos\ProductsManagementSystem\ProductsManagementSystem\b
 C:\Users\Lenovo\source\repos\ProductsManagementSystem\ProductsManagementSystem\obj\Debug\net8.0\ProductsManagementSystem.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Lenovo\source\repos\ProductsManagementSystem\ProductsManagementSystem\bin\Debug\net8.0\Pipelines.Sockets.Unofficial.dll
 C:\Users\Lenovo\source\repos\ProductsManagementSystem\ProductsManagementSystem\bin\Debug\net8.0\StackExchange.Redis.dll
+C:\Users\Lenovo\source\repos\ProductsManagementSystem\ProductsManagementSystem\obj\Debug\net8.0\ProductsManagementSystem.sourcelink.json
